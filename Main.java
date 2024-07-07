@@ -91,19 +91,26 @@ public class Main {
         //5. Write a program that places the odd elements of an array before the
         //even elements.
 
-        //START
-
+        
+//        //START
+//
 //        int[] places={2,3,40,1,5,9,4,10,7};
 //        int[] newArray=new int[places.length];
+//        int index=0;
 //        for (int i = 0; i < places.length; i++) {
-//            if (places[i]%2==0){
-//                newArray[i]=places[i];
-//            }else {
-//                newArray[i]=places[i];
+//            if (places[i]%2!=0){
+//                newArray[index]=places[i];
+//                index++;
 //            }
 //        }
-//        System.out.println(Arrays.toString(newArray));//[2, 3, 40, 1, 5, 9, 4, 10, 7]
-        //END
+//        for (int i = 0; i <newArray.length ; i++) {
+//            if (places[i]%2==0){
+//                newArray[index]=places[i];
+//                index++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(newArray));//[3,1,5,9,7,2,40,4,10]
+//        //END
 
         //6. Write a program that test the equality of two arrays.
         //[2,3,6,6,4] [2,3,6,6,4]
